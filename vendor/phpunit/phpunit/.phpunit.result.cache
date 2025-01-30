@@ -1,1 +1,1 @@
-{"version":1,"defects":{"ExampleTest::testAddingTwoPlusTwo":5},"times":{"ExampleTest::testAddingTwoPlusTwo":0.001}}
+{"version":1,"defects":{"ExampleTest::testAddingTwoPlusTwo":7,"FuctionTest::testAddRetunsTheCorrectSum":8,"FunctionTest::testAddReturnsTheCorrectSum":8,"FunctionTest::testAddDoesNotReturnTheCorrectSum":7},"times":{"ExampleTest::testAddingTwoPlusTwo":0.006,"FuctionTest::testAddRetunsTheCorrectSum":0.005,"FunctionTest::testAddReturnsTheCorrectSum":0.002,"FunctionTest::testAddDoesNotReturnTheCorrectSum":0.005}}
