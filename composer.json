@@ -1,5 +1,13 @@
 {
     "require-dev": {
-        "phpunit/phpunit": "^11.5"
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    },
+    "require": {
+        "twbs/bootstrap": "^5.3"
     }
 }
