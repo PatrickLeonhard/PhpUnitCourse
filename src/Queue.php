@@ -2,10 +2,19 @@
 
 class Queue
 {
+    public const MAX_ITEMS = 5;
     protected $items = array();
 
+    /**
+    * @param mixed $item
+     *
+    * @throws QueueException
+    */
     public function push(mixed $item): void
     {
+        if($this->getCount() >= self::MAX_ITEMS) {
+            throw new QueueException("Queue is full");
+        }
         $this->items[] = $item;
     }
 
@@ -18,5 +27,4 @@ class Queue
     {
         return count($this->items);
     }
-
 }
